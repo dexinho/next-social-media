@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import { Links } from "../../../../types";
+import { LinkProps } from "../../../../types";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const links: Links[] = [
+const links: LinkProps[] = [
   {
     title: "Home",
     path: "/",
