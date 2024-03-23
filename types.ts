@@ -1,4 +1,4 @@
-export type Links = {
+export type LinkProps = {
   title: string;
   path: string;
 };
