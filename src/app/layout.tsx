@@ -19,10 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-slate-900 text-white`}>
-        <h1>This is Main Layout</h1>
-        <Navbar />
-        {children}
-        <Footer />
+        <div className="flex flex-col justify-between g-4 px-10 min-h-screen">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
       </body>
     </html>
   );
