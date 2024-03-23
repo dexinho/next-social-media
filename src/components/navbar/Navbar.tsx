@@ -1,12 +1,12 @@
 import Link from "next/link";
 import React from "react";
-import NavLinks from "./nav-links/NavLinks";
+import NavLink from "./nav-link/NavLink";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="bg-slate-700 p-4 flex justify-between">
       <div>Logo</div>
-      <NavLinks />
+      <NavLink />
     </div>
   );
 };
