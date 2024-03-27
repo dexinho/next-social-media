@@ -11,11 +11,6 @@ const todos: ToDo[] = [
     title: "exercise",
     isCompleted: false,
   },
-  {
-    id: "3",
-    title: "wash dishes",
-    isCompleted: false,
-  },
 ];
 
 export const GET = async () => {
