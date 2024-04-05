@@ -10,7 +10,11 @@ export default function Home() {
     async function fetchTodos() {
       const response = await fetch(`/api/todos`);
 
-      console.log(response)
+      const data = await response.json();
+
+      setTodos(data);
+
+      console.log(response);
     }
 
     fetchTodos();
