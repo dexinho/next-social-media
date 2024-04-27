@@ -3,7 +3,7 @@ export type LinkProps = {
   path: string;
 };
 
-export type ToDo = {
+export type Todo = {
   id: string;
   title: string;
   isCompleted: boolean;
