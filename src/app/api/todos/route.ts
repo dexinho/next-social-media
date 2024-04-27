@@ -1,6 +1,6 @@
-import type { ToDo } from "../../../../types";
+import type { Todo } from "../../../../types";
 
-const todos: ToDo[] = [
+const todos: Todo[] = [
   {
     id: "1",
     title: "study",
