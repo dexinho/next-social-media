@@ -1,10 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ToDo } from "../../types";
+import { Todo } from "../../types";
 
 export default function Home() {
-  const [todos, setTodos] = useState<ToDo[]>([]);
+  const [todos, setTodos] = useState<Todo[]>([]);
 
   useEffect(() => {
     async function fetchTodos() {
